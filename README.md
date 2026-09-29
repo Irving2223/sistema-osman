@@ -186,4 +186,17 @@ menu, por lo que se conserva tal cual y puede eliminarse sin ningun efecto.
 
 ## Licencia
 
-MIT. Ver [LICENSE](LICENSE).
+Este repositorio usa **licencias distintas segun el tipo de archivo**:
+
+| Elemento                            | Licencia          |
+|-------------------------------------|-------------------|
+| `*.php`, `css/`, `js/`, `database/` | MIT               |
+| `README.md`, `image/`, `assets/`    | CC BY-NC-SA 4.0   |
+| `tcpdf/`                            | LGPL-3.0-or-later |
+| `fpdf/`                             | MIT (propia)      |
+
+- Codigo fuente: [`LICENSE`](LICENSE)
+- Documentacion e imagenes: [`LICENSE-CC-BY-NC-SA-4.0.txt`](LICENSE-CC-BY-NC-SA-4.0.txt)
+- Detalle completo: [`NOTICIA-LICENCIAS.md`](NOTICIA-LICENCIAS.md)
+
+Las librerias de terceros conservan sus propias licencias y no se relicencian.

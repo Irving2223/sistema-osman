@@ -2,6 +2,31 @@ MIT License
 
 Copyright (c) 2025 U.P.Q.L - Unidad de Produccion de Quimica
 
+---
+
+ALCANCE DE ESTA LICENCIA
+
+Esta licencia MIT cubre UNICAMENTE el codigo fuente propio de este proyecto:
+
+    - Todos los archivos *.php
+    - css/  y  js/
+    - database/schema.sql  y  database/seed_demo.sql
+
+NO cubre el resto del repositorio, que se licencia por separado:
+
+    - Documentacion e imagenes  ->  CC BY-NC-SA 4.0
+       Texto integro en: LICENSE-CC-BY-NC-SA-4.0.txt
+       Aplica a: README.md, NOTICIA-LICENCIAS.md, image/ y assets/
+
+    - tcpdf/  ->  LGPL-3.0-or-later (licencia propia del proyecto TCPDF)
+    - fpdf/   ->  licencia propia incluida en fpdf/license.txt
+
+Las librerias de terceros conservan sus respectivas licencias y no pueden
+modificarse mediante este documento. Vease NOTICIA-LICENCIAS.md para el
+detalle.
+
+--- MIT License (texto integro) ---
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
