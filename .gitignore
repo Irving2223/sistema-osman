@@ -1,0 +1,49 @@
+# ============================================================
+#  Sistema Osman - archivos que NO deben subirse al repositorio
+# ============================================================
+
+# --- Credenciales (NUNCA versionar) -------------------------
+.env
+.env.*
+!.env.example
+
+# --- Dumps de base de datos con informacion real ------------
+# Solo se versionan database/schema.sql y database/seed_demo.sql
+*_dump*.sql
+*_backup*.sql
+*_pre_stock_backup*.sql
+osman_bd*.sql
+*.sql.gz
+*.sql.bak
+
+# --- Logs y temporales ---------------------------------------
+*.log
+logs/
+tmp/
+.cache/
+.phpunit.result.cache
+
+# --- Sistema operativo --------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# --- Editores / IDE -----------------------------------------
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# --- Backups de editors -------------------------------------
+*.bak
+*.orig
+*.rej
