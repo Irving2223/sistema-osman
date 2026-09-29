@@ -5,6 +5,18 @@ Sistema de gestion de inventario y produccion para la **U.P.Q.L - Unidad de Prod
 Permite controlar materias primas, proveedores, entradas y salidas de almacen,
 recetas de produccion y usuarios, ademas de generar reportes en PDF.
 
+> [!CAUTION]
+> **No expongas esta aplicacion en internet tal como esta.** Conserva varias
+> debilidades de seguridad conocidas que no se han corregido: inyeccion SQL en
+> algunos archivos, contrasenas con `md5()`, respuestas de seguridad en texto
+> plano y endpoints sin verificacion de sesion en el servidor. Esta pensado
+> para una red interna controlada.
+> El detalle esta en [Notas de seguridad](#notas-de-seguridad).
+>
+> Es material de uso **no comercial** (CC BY-NC-SA 4.0). La redistribucion
+> debe mantener esa licencia y dar credito. Ver
+> [NOTICIA-LICENCIAS.md](NOTICIA-LICENCIAS.md).
+
 ---
 
 ## Stack
